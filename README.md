@@ -18,12 +18,14 @@ The best performing model was a Voting Ensemble of Xgboost classifier using stan
 5.The classification algorithm used here is Logistic Regression with accuracy as the primary metric for classification
 
 **Benifits of the parameter sampler chosen**
+
 1.Inverse regularization parameter(C)- A control variable that retains strength modification of Regularization 
 C = 1/?.The relationship, would be that lowering C - would strengthen the Lambda regulator.
 
 2.No of iterations(max_iter):The number of times we want the learning to happen. This helps is solving high complex problems with large training hours
 
-** Benefits of the early stopping policy**
+**Benefits of the early stopping policy**
+
 The early stopping policy used here is Bandit Policy.Its is based on slack factor/slack amount and evaluation interval. Bandit terminates runs where the primary metric is not within the specified slack factor/slack amount compared to the best performing run.
 
 ## AutoML
