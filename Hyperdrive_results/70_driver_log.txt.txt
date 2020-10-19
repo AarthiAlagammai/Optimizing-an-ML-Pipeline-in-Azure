@@ -1,28 +1,28 @@
-2020/10/17 14:45:11 logger.go:297: Attempt 1 of http call to http://10.0.0.5:16384/sendlogstoartifacts/info
-2020/10/17 14:45:11 logger.go:297: Attempt 1 of http call to http://10.0.0.5:16384/sendlogstoartifacts/status
-[2020-10-17T14:45:13.209463] Entering context manager injector.
+2020/10/19 16:41:45 logger.go:297: Attempt 1 of http call to http://10.0.0.7:16384/sendlogstoartifacts/info
+2020/10/19 16:41:45 logger.go:297: Attempt 1 of http call to http://10.0.0.7:16384/sendlogstoartifacts/status
+[2020-10-19T16:41:46.950958] Entering context manager injector.
 [context_manager_injector.py] Command line Options: Namespace(inject=['ProjectPythonPath:context_managers.ProjectPythonPath', 'RunHistory:context_managers.RunHistory', 'TrackUserError:context_managers.TrackUserError'], invocation=['train.py', '--C', '0.1', '--max_iter', '25'])
-Starting the daemon thread to refresh tokens in background for process with pid = 106
+Starting the daemon thread to refresh tokens in background for process with pid = 108
 Entering Run History Context Manager.
-Current directory:  /mnt/batch/tasks/shared/LS_root/jobs/quick-starts-ws-121117/azureml/hd_7c3e6b35-677e-4fca-80b3-26a2d2e5e9e7_17/mounts/workspaceblobstore/azureml/HD_7c3e6b35-677e-4fca-80b3-26a2d2e5e9e7_17
+Current directory:  /mnt/batch/tasks/shared/LS_root/jobs/quick-starts-ws-121550/azureml/hd_f59ed7a7-8b0d-428b-b8cf-11ed77795fef_1/mounts/workspaceblobstore/azureml/HD_f59ed7a7-8b0d-428b-b8cf-11ed77795fef_1
 Preparing to call script [ train.py ] with arguments: ['--C', '0.1', '--max_iter', '25']
 After variable expansion, calling script [ train.py ] with arguments: ['--C', '0.1', '--max_iter', '25']
 
 Script type = None
-Could not refresh EngineServer credentials in rslex: No Lariat Runtime Environment is active, please initialize an Environment.
-Could not refresh EngineServer credentials in rslex: No Lariat Runtime Environment is active, please initialize an Environment.
-/azureml-envs/azureml_ba9520bf386d662001eeb9523395794e/lib/python3.6/site-packages/sklearn/linear_model/logistic.py:433: FutureWarning: Default solver will be changed to 'lbfgs' in 0.22. Specify a solver to silence this warning.
+/opt/miniconda/lib/python3.6/site-packages/azureml/dataprep/api/dataflow.py:722: UserWarning: Your pandas and pyarrow versions are incompatible. Please install pyarrow>=0.12.0 for improved performance of to_pandas_dataframe. You can ensure the correct version is installed by running: pip install pyarrow>=0.12.0 --upgrade
+  warnings.warn('Your pandas and pyarrow versions are incompatible. '
+/opt/miniconda/lib/python3.6/site-packages/sklearn/linear_model/logistic.py:433: FutureWarning: Default solver will be changed to 'lbfgs' in 0.22. Specify a solver to silence this warning.
   FutureWarning)
-/azureml-envs/azureml_ba9520bf386d662001eeb9523395794e/lib/python3.6/site-packages/sklearn/svm/base.py:931: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+/opt/miniconda/lib/python3.6/site-packages/sklearn/svm/base.py:931: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
   "the number of iterations.", ConvergenceWarning)
-Starting the daemon thread to refresh tokens in background for process with pid = 106
+Starting the daemon thread to refresh tokens in background for process with pid = 108
 
 
-[2020-10-17T14:45:35.992450] The experiment completed successfully. Finalizing run...
-[2020-10-17T14:45:35.992496] FinalizingInRunHistory is not called
+[2020-10-19T16:42:08.522313] The experiment completed successfully. Finalizing run...
+[2020-10-19T16:42:08.522372] FinalizingInRunHistory is not called
 Cleaning up all outstanding Run operations, waiting 300.0 seconds
 2 items cleaning up...
-Cleanup took 5.587320566177368 seconds
-[2020-10-17T14:45:41.935895] Finished context manager injector.
-2020/10/17 14:45:46 logger.go:297: Attempt 1 of http call to http://10.0.0.5:16384/sendlogstoartifacts/status
-2020/10/17 14:45:46 logger.go:297: Process Exiting with Code:  0
+Cleanup took 0.4315519332885742 seconds
+[2020-10-19T16:42:09.310472] Finished context manager injector.
+2020/10/19 16:42:09 logger.go:297: Attempt 1 of http call to http://10.0.0.7:16384/sendlogstoartifacts/status
+2020/10/19 16:42:09 logger.go:297: Process Exiting with Code:  0
